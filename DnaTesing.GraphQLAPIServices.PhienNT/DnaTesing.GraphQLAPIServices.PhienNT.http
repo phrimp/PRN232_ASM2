@@ -1,0 +1,6 @@
+@DnaTesing.GraphQLAPIServices.PhienNT_HostAddress = http://localhost:5081
+
+GET {{DnaTesing.GraphQLAPIServices.PhienNT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

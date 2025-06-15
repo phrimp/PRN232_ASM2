@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DnaTesing.GraphQLAPIServices.PhienNT.props" />
+</Project>
