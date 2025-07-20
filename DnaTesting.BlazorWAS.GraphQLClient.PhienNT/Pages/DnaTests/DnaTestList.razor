@@ -1,0 +1,117 @@
+﻿@page "/dnatests"
+@inject DnaTestService DnaTestService
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<PageTitle>DNA Tests</PageTitle>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h3>DNA Tests</h3>
+    <a href="/dnatests/create" class="btn btn-primary">Create New Test</a>
+</div>
+
+@if (loading)
+{
+    <div class="text-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}
+else if (dnaTests.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Test Type</th>
+                    <th>Status</th>
+                    <th>Probability</th>
+                    <th>Created</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var test in dnaTests)
+                {
+                    <tr>
+                        <td>@test.PhienNtid</td>
+                        <td>@test.TestType</td>
+                        <td>
+                            <span class="badge @(test.IsCompleted == true ? "bg-success" : "bg-warning")">
+                                @(test.IsCompleted == true ? "Completed" : "In Progress")
+                            </span>
+                        </td>
+                        <td>@(test.ProbabilityOfRelationship?.ToString("P2") ?? "N/A")</td>
+                        <td>@test.CreatedAt?.ToString("yyyy-MM-dd")</td>
+                        <td>
+                            <a href="/dnatests/edit/@test.PhienNtid" class="btn btn-sm btn-outline-primary">Edit</a>
+                            <button class="btn btn-sm btn-outline-danger ms-1" @onclick="() => DeleteTest(test.PhienNtid)">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">
+        <h4>No DNA tests found</h4>
+        <p>Create your first DNA test to get started.</p>
+        <a href="/dnatests/create" class="btn btn-primary">Create DNA Test</a>
+    </div>
+}
+
+@code {
+    private List<DnaTest> dnaTests = new();
+    private bool loading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDnaTests();
+    }
+
+    private async Task LoadDnaTests()
+    {
+        loading = true;
+        try
+        {
+            dnaTests = await DnaTestService.GetAllDnaTestsAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle error
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+
+    private async Task DeleteTest(int id)
+    {
+        try
+        {
+            bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", $"Are you sure you want to delete DNA Test #{id}?");
+
+            if (confirmed)
+            {
+                var success = await DnaTestService.DeleteDnaTestAsync(id);
+                if (success)
+                {
+                    await LoadDnaTests();
+                }
+                else
+                {
+                    await JSRuntime.InvokeVoidAsync("alert", "Failed to delete the DNA test.");
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", $"Error: {ex.Message}");
+        }
+    }
+}

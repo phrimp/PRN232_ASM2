@@ -32,8 +32,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/DnaTests/CreateDnaTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG5hVGVzdHNcQ3JlYXRlRG5hVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/DnaTests/DnaTestList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG5hVGVzdHNcRG5hVGVzdExpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/DnaTests/EditDnaTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRG5hVGVzdHNcRWRpdERuYVRlc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/Weather.razor]

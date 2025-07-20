@@ -1,0 +1,171 @@
+﻿@page "/dnatests/edit/{Id:int}"
+@inject DnaTestService DnaTestService
+@inject NavigationManager Navigation
+
+<PageTitle>Edit DNA Test</PageTitle>
+
+<h3>Edit DNA Test #@Id</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="alert alert-danger">@errorMessage</div>
+                }
+
+                @if (loading)
+                {
+                    <div class="text-center">
+                        <div class="spinner-border" role="status"></div>
+                    </div>
+                }
+                else
+                {
+                    <EditForm Model="dnaTestModel" OnValidSubmit="HandleUpdate">
+                        <div class="mb-3">
+                            <label class="form-label">Test Type:</label>
+                            <InputSelect class="form-select" @bind-Value="dnaTestModel.TestType">
+                                <option value="">Select Test Type</option>
+                                <option value="Paternity">Paternity</option>
+                                <option value="Maternity">Maternity</option>
+                                <option value="Sibling">Sibling</option>
+                                <option value="Grandparent">Grandparent</option>
+                                <option value="Relationship">Relationship</option>
+                            </InputSelect>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Conclusion:</label>
+                            <InputTextArea class="form-control" rows="3" @bind-Value="dnaTestModel.Conclusion" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Probability of Relationship (%):</label>
+                            <InputNumber class="form-control" @bind-Value="dnaTestModel.ProbabilityOfRelationship" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Relationship Index:</label>
+                            <InputNumber class="form-control" @bind-Value="dnaTestModel.RelationshipIndex" />
+                        </div>
+
+                        <div class="mb-3 form-check">
+                            <InputCheckbox class="form-check-input" @bind-Value="dnaTestModel.IsCompleted" />
+                            <label class="form-check-label">Test Completed</label>
+                        </div>
+
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-primary" disabled="@isSubmitting">
+                                @if (isSubmitting)
+                                {
+                                    <span class="spinner-border spinner-border-sm me-2"></span>
+                                }
+                                Update Test
+                            </button>
+                            <a href="/dnatests" class="btn btn-secondary">Cancel</a>
+                        </div>
+                    </EditForm>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public int Id { get; set; }
+
+    private DnaTestEditModel dnaTestModel = new();
+    private string errorMessage = "";
+    private bool isSubmitting = false;
+    private bool loading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadDnaTest();
+    }
+
+    private async Task LoadDnaTest()
+    {
+        loading = true;
+        try
+        {
+            // For simplicity, we'll get all tests and find the one we need
+            // In a real app, you'd have a GetById method
+            var tests = await DnaTestService.GetAllDnaTestsAsync();
+            var test = tests.FirstOrDefault(t => t.PhienNtid == Id);
+
+            if (test != null)
+            {
+                dnaTestModel = new DnaTestEditModel
+                    {
+                        TestType = test.TestType,
+                        Conclusion = test.Conclusion,
+                        ProbabilityOfRelationship = test.ProbabilityOfRelationship,
+                        RelationshipIndex = test.RelationshipIndex,
+                        IsCompleted = test.IsCompleted ?? false
+                    };
+            }
+            else
+            {
+                errorMessage = "DNA test not found.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error loading test: " + ex.Message;
+        }
+        finally
+        {
+            loading = false;
+        }
+    }
+
+    private async Task HandleUpdate()
+    {
+        isSubmitting = true;
+        errorMessage = "";
+
+        try
+        {
+            var input = new DnaTestInput
+                {
+                    PhienNtid = Id,
+                    TestType = dnaTestModel.TestType,
+                    Conclusion = dnaTestModel.Conclusion,
+                    ProbabilityOfRelationship = dnaTestModel.ProbabilityOfRelationship,
+                    RelationshipIndex = dnaTestModel.RelationshipIndex,
+                    IsCompleted = dnaTestModel.IsCompleted
+                };
+
+            var result = await DnaTestService.UpdateDnaTestAsync(input);
+
+            if (result > 0)
+            {
+                Navigation.NavigateTo("/dnatests");
+            }
+            else
+            {
+                errorMessage = "Failed to update DNA test.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error: " + ex.Message;
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+
+    public class DnaTestEditModel
+    {
+        public string TestType { get; set; } = "";
+        public string Conclusion { get; set; } = "";
+        public decimal? ProbabilityOfRelationship { get; set; }
+        public decimal? RelationshipIndex { get; set; }
+        public bool IsCompleted { get; set; } = false;
+    }
+}

@@ -1080,6 +1080,6 @@ E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\
 E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\uiflazk7je-n59qndv0qo.gz
 E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\qsi6mop3a2-qkbufwhni2.gz
 E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\qw8usrilk4-c15raio1t6.gz
-E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\adtvu8tar4-tpqnv9hkk8.gz
-E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\s55h7xnhip-gxyc1vt4g5.gz
-E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\vezctc18j8-jwxm0fdawc.gz
+E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\adtvu8tar4-i5z9t0s9fa.gz
+E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\s55h7xnhip-7lr7z14d9u.gz
+E:\Work\PRN232_ASM2\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\obj\Debug\net8.0\compressed\vezctc18j8-glub7icw4d.gz

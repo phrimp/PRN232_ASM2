@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wWCL90ThZ22E4/mcMzsMDNJW5XYuVWvNyaAYJF8IeCQ=",
+  "Hash": "tIOghyW7QDZvYRvqokUyxHgxpy678RNHYyvMUrarjK8=",
   "Source": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "jwxm0fdawc",
-      "Integrity": "I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s=",
+      "Fingerprint": "glub7icw4d",
+      "Integrity": "pB7gIo9RJPRZp/0cHGAgcG4t/DfLov3TrKR5DGM8RS8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "gxyc1vt4g5",
-      "Integrity": "1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY=",
+      "Fingerprint": "7lr7z14d9u",
+      "Integrity": "lVGIas7J1ZXNisJhP2sFARFupNrBklYHFNboDqH0FVY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "tpqnv9hkk8",
-      "Integrity": "ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM=",
+      "Fingerprint": "i5z9t0s9fa",
+      "Integrity": "yqj0Tvr1JpCEHv64yL3P4381scWLgyJMVKAV8BMqWgI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm"
@@ -5519,7 +5519,7 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm"
     },
     {
-      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-tpqnv9hkk8.gz",
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-i5z9t0s9fa.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -5533,8 +5533,8 @@
       "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pu47qvywku",
-      "Integrity": "UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8=",
+      "Fingerprint": "csl3mrqbsg",
+      "Integrity": "9OwJxgcbkIPE8+8G+UrrCUT5+6m3g/h8Diz3Oauj7j0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm"
@@ -7997,7 +7997,7 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.wasm"
     },
     {
-      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-gxyc1vt4g5.gz",
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-7lr7z14d9u.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -8011,8 +8011,8 @@
       "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ubj93ecjfs",
-      "Integrity": "5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw=",
+      "Fingerprint": "4crlw6uw5k",
+      "Integrity": "XKrrxnxh7vSfqGA4tohkUK8opD6iQmClDBLjgSlDe9I=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb"
@@ -8354,7 +8354,7 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encodings.Web.wasm"
     },
     {
-      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-jwxm0fdawc.gz",
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-glub7icw4d.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -8368,8 +8368,8 @@
       "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "a1sqklc4rb",
-      "Integrity": "kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU=",
+      "Fingerprint": "99p85fml5b",
+      "Integrity": "3ZLNZqzWJAV7WyWw0/sefUH9URKoJheEn3op0kg8g9g=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -9047,6 +9047,27 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.bundle.scp.css"
     },
     {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\appsettings.json",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "appsettings#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "settings",
+      "Fingerprint": "6rsxeaa2e7",
+      "Integrity": "LprZT4JUyt2JDI/kb1HSuxC+2klDOCDPUnAGe8eRujk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\appsettings.json"
+    },
+    {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\css\\app.css",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Discovered",
@@ -9206,7 +9227,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19731"
+          "Value": "20605"
         },
         {
           "Name": "Content-Type",
@@ -9214,11 +9235,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s=\""
+          "Value": "\"pB7gIo9RJPRZp/0cHGAgcG4t/DfLov3TrKR5DGM8RS8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 19:03:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9228,18 +9249,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s="
+          "Value": "sha256-pB7gIo9RJPRZp/0cHGAgcG4t/DfLov3TrKR5DGM8RS8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-jwxm0fdawc.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-glub7icw4d.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000108154878"
+          "Quality": "0.000107781850"
         }
       ],
       "ResponseHeaders": [
@@ -9249,15 +9270,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9245"
+          "Value": "9277"
         },
         {
           "Name": "ETag",
-          "Value": "\"kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU=\""
+          "Value": "\"3ZLNZqzWJAV7WyWw0/sefUH9URKoJheEn3op0kg8g9g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Sun, 20 Jul 2025 18:48:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9277,19 +9298,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s=\""
+          "Value": "W/\"pB7gIo9RJPRZp/0cHGAgcG4t/DfLov3TrKR5DGM8RS8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s="
+          "Value": "sha256-pB7gIo9RJPRZp/0cHGAgcG4t/DfLov3TrKR5DGM8RS8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-jwxm0fdawc.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-glub7icw4d.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9298,7 +9319,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9245"
+          "Value": "9277"
         },
         {
           "Name": "Content-Type",
@@ -9306,11 +9327,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU=\""
+          "Value": "\"3ZLNZqzWJAV7WyWw0/sefUH9URKoJheEn3op0kg8g9g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Sun, 20 Jul 2025 18:48:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9328,7 +9349,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU="
+          "Value": "sha256-3ZLNZqzWJAV7WyWw0/sefUH9URKoJheEn3op0kg8g9g="
         }
       ]
     },
@@ -9480,7 +9501,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23676"
+          "Value": "29700"
         },
         {
           "Name": "Content-Type",
@@ -9488,11 +9509,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY=\""
+          "Value": "\"lVGIas7J1ZXNisJhP2sFARFupNrBklYHFNboDqH0FVY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+          "Value": "Sun, 20 Jul 2025 19:03:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9502,18 +9523,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY="
+          "Value": "sha256-lVGIas7J1ZXNisJhP2sFARFupNrBklYHFNboDqH0FVY="
         }
       ]
     },
     {
       "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-gxyc1vt4g5.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-7lr7z14d9u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000056924916"
+          "Quality": "0.000029209873"
         }
       ],
       "ResponseHeaders": [
@@ -9523,15 +9544,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17566"
+          "Value": "34234"
         },
         {
           "Name": "ETag",
-          "Value": "\"5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw=\""
+          "Value": "\"XKrrxnxh7vSfqGA4tohkUK8opD6iQmClDBLjgSlDe9I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
+          "Value": "Sun, 20 Jul 2025 18:48:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9551,19 +9572,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY=\""
+          "Value": "W/\"lVGIas7J1ZXNisJhP2sFARFupNrBklYHFNboDqH0FVY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY="
+          "Value": "sha256-lVGIas7J1ZXNisJhP2sFARFupNrBklYHFNboDqH0FVY="
         }
       ]
     },
     {
       "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb.gz",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-gxyc1vt4g5.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-7lr7z14d9u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9572,7 +9593,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17566"
+          "Value": "34234"
         },
         {
           "Name": "Content-Type",
@@ -9580,11 +9601,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw=\""
+          "Value": "\"XKrrxnxh7vSfqGA4tohkUK8opD6iQmClDBLjgSlDe9I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
+          "Value": "Sun, 20 Jul 2025 18:48:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9602,7 +9623,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw="
+          "Value": "sha256-XKrrxnxh7vSfqGA4tohkUK8opD6iQmClDBLjgSlDe9I="
         }
       ]
     },
@@ -9617,7 +9638,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18709"
+          "Value": "32533"
         },
         {
           "Name": "Content-Type",
@@ -9625,11 +9646,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM=\""
+          "Value": "\"yqj0Tvr1JpCEHv64yL3P4381scWLgyJMVKAV8BMqWgI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+          "Value": "Sun, 20 Jul 2025 19:03:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9639,18 +9660,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM="
+          "Value": "sha256-yqj0Tvr1JpCEHv64yL3P4381scWLgyJMVKAV8BMqWgI="
         }
       ]
     },
     {
       "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-tpqnv9hkk8.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-i5z9t0s9fa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000125565043"
+          "Quality": "0.000039053347"
         }
       ],
       "ResponseHeaders": [
@@ -9660,15 +9681,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7963"
+          "Value": "25605"
         },
         {
           "Name": "ETag",
-          "Value": "\"UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8=\""
+          "Value": "\"9OwJxgcbkIPE8+8G+UrrCUT5+6m3g/h8Diz3Oauj7j0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
+          "Value": "Sun, 20 Jul 2025 18:48:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9688,19 +9709,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM=\""
+          "Value": "W/\"yqj0Tvr1JpCEHv64yL3P4381scWLgyJMVKAV8BMqWgI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM="
+          "Value": "sha256-yqj0Tvr1JpCEHv64yL3P4381scWLgyJMVKAV8BMqWgI="
         }
       ]
     },
     {
       "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm.gz",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-tpqnv9hkk8.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-i5z9t0s9fa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9709,7 +9730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7963"
+          "Value": "25605"
         },
         {
           "Name": "Content-Type",
@@ -9717,11 +9738,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8=\""
+          "Value": "\"9OwJxgcbkIPE8+8G+UrrCUT5+6m3g/h8Diz3Oauj7j0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
+          "Value": "Sun, 20 Jul 2025 18:48:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9739,7 +9760,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8="
+          "Value": "sha256-9OwJxgcbkIPE8+8G+UrrCUT5+6m3g/h8Diz3Oauj7j0="
         }
       ]
     },
@@ -10764,7 +10785,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10817,7 +10838,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10901,7 +10922,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10954,7 +10975,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11038,7 +11059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11091,7 +11112,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11175,7 +11196,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11228,7 +11249,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11312,7 +11333,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11365,7 +11386,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11449,7 +11470,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11502,7 +11523,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11586,7 +11607,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11639,7 +11660,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16107,7 +16128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16160,7 +16181,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27889,7 +27910,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27942,7 +27963,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -38510,6 +38531,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-QLsv9bVT0zZTUp1GxGqCsut6kMeHsCVwoChsE3nXw+E="
+        }
+      ]
+    },
+    {
+      "Route": "appsettings.6rsxeaa2e7.json",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\appsettings.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LprZT4JUyt2JDI/kb1HSuxC+2klDOCDPUnAGe8eRujk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6rsxeaa2e7"
+        },
+        {
+          "Name": "label",
+          "Value": "appsettings.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LprZT4JUyt2JDI/kb1HSuxC+2klDOCDPUnAGe8eRujk="
+        }
+      ]
+    },
+    {
+      "Route": "appsettings.json",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\appsettings.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LprZT4JUyt2JDI/kb1HSuxC+2klDOCDPUnAGe8eRujk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:43:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LprZT4JUyt2JDI/kb1HSuxC+2klDOCDPUnAGe8eRujk="
         }
       ]
     },
