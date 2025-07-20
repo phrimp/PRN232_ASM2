@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>1hgmris10h</Fingerprint>
-      <Integrity>5X9r0buDTJ5emigEoLUoOv9FSBcmNv53pPYt/59k0No=</Integrity>
+      <Fingerprint>5tkfxe86wq</Fingerprint>
+      <Integrity>GdCzF5lZeOFIm+Cyq4r2BfDWEhHODobXQAuAOym2OEc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.styles.css'))</OriginalItemSpec>

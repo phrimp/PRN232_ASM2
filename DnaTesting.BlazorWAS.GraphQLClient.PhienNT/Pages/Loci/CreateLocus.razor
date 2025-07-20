@@ -1,0 +1,136 @@
+﻿@page "/loci/create"
+@inject LociService LociService
+@inject NavigationManager Navigation
+
+<PageTitle>Create Locus</PageTitle>
+
+<h3>Create New Locus</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                @if (!string.IsNullOrEmpty(errorMessage))
+                {
+                    <div class="alert alert-danger">@errorMessage</div>
+                }
+
+                <EditForm Model="locusModel" OnValidSubmit="HandleCreate">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary class="alert alert-danger" />
+
+                    <div class="mb-3">
+                        <label class="form-label">Name: <span class="text-danger">*</span></label>
+                        <InputText class="form-control" @bind-Value="locusModel.Name"
+                                   placeholder="Enter locus name (e.g., D3S1358, vWA, FGA)" />
+                        <ValidationMessage For="@(() => locusModel.Name)" class="text-danger" />
+                        <div class="form-text">@(locusModel.Name?.Length ?? 0)/50 characters</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Description:</label>
+                        <InputTextArea class="form-control" rows="3" @bind-Value="locusModel.Description"
+                                       placeholder="Enter locus description (max 500 characters)" />
+                        <ValidationMessage For="@(() => locusModel.Description)" class="text-danger" />
+                        <div class="form-text">@(locusModel.Description?.Length ?? 0)/500 characters</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Mutation Rate:</label>
+                        <InputNumber class="form-control" @bind-Value="locusModel.MutationRate"
+                                     placeholder="0.0001" step="0.0001" />
+                        <ValidationMessage For="@(() => locusModel.MutationRate)" class="text-danger" />
+                        <div class="form-text">Enter value between 0 and 1 (e.g., 0.0001 for 0.01%)</div>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <InputCheckbox class="form-check-input" @bind-Value="locusModel.IsCodis" id="isCodis" />
+                        <label class="form-check-label" for="isCodis">CODIS Marker</label>
+                        <div class="form-text">Check if this is a CODIS (Combined DNA Index System) marker</div>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-primary" disabled="@isSubmitting">
+                            @if (isSubmitting)
+                            {
+                                <span class="spinner-border spinner-border-sm me-2"></span>
+                            }
+                            Create Locus
+                        </button>
+                        <a href="/loci" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>Validation Rules</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><i class="text-danger">*</i> <strong>Name:</strong> Required field, max 50 characters</li>
+                    <li><i class="text-info">•</i> <strong>Description:</strong> Maximum 500 characters</li>
+                    <li><i class="text-info">•</i> <strong>Mutation Rate:</strong> Between 0 and 1</li>
+                    <li><i class="text-info">•</i> <strong>CODIS Marker:</strong> Indicates core markers</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h5>Common CODIS Markers</h5>
+            </div>
+            <div class="card-body">
+                <small class="text-muted">
+                    Examples: D3S1358, vWA, FGA, D8S1179, D21S11, D18S51,
+                    D5S818, D13S317, D7S820, D16S539, TH01, TPOX, CSF1PO,
+                    D19S433, D2S1338, D12S391, D1S1656, D6S1043, D22S1045, SE33
+                </small>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private LocusCreateModel locusModel = new();
+    private string errorMessage = "";
+    private bool isSubmitting = false;
+
+    private async Task HandleCreate()
+    {
+        isSubmitting = true;
+        errorMessage = "";
+
+        try
+        {
+            var input = new LocusInput
+                {
+                    Name = locusModel.Name,
+                    Description = locusModel.Description,
+                    MutationRate = locusModel.MutationRate,
+                    IsCodis = locusModel.IsCodis
+                };
+
+            var result = await LociService.CreateLocusAsync(input);
+
+            if (result > 0)
+            {
+                Navigation.NavigateTo("/loci");
+            }
+            else
+            {
+                errorMessage = "Failed to create locus. Please try again.";
+            }
+        }
+        catch (Exception ex)
+        {
+            errorMessage = "Error: " + ex.Message;
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+}

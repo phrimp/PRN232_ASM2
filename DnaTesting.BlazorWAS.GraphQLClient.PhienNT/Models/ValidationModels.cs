@@ -35,4 +35,34 @@ namespace DnaTesting.BlazorWAS.GraphQLClient.PhienNT.Models
 
         public bool IsCompleted { get; set; } = false;
     }
+
+    public class LocusCreateModel
+    {
+        [Required(ErrorMessage = "Name is required")]
+        [StringLength(50, ErrorMessage = "Name cannot exceed 50 characters")]
+        public string Name { get; set; } = "";
+
+        [StringLength(500, ErrorMessage = "Description cannot exceed 500 characters")]
+        public string Description { get; set; } = "";
+
+        [Range(0, 1, ErrorMessage = "Mutation Rate must be between 0 and 1")]
+        public decimal? MutationRate { get; set; }
+
+        public bool IsCodis { get; set; } = true;
+    }
+
+    public class LocusEditModel
+    {
+        [Required(ErrorMessage = "Name is required")]
+        [StringLength(50, ErrorMessage = "Name cannot exceed 50 characters")]
+        public string Name { get; set; } = "";
+
+        [StringLength(500, ErrorMessage = "Description cannot exceed 500 characters")]
+        public string Description { get; set; } = "";
+
+        [Range(0, 1, ErrorMessage = "Mutation Rate must be between 0 and 1")]
+        public decimal? MutationRate { get; set; }
+
+        public bool IsCodis { get; set; } = true;
+    }
 }

@@ -62,6 +62,7 @@ namespace DnaTesting.BlazorWAS.GraphQLClient.PhienNT.GraphQLClient
             }
         }
 
+        // DNA Test Methods
         public async Task<PaginationResult<List<DnaTest>>> GetDnaTestsAsync(int page = 1, int pageSize = 10)
         {
             var query = new GraphQLRequest
@@ -221,6 +222,171 @@ namespace DnaTesting.BlazorWAS.GraphQLClient.PhienNT.GraphQLClient
             {
                 var response = await _graphQLClient.SendMutationAsync<DeleteDnaTestData>(mutation);
                 return response.Data?.DeleteDnaTest ?? false;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        // Loci Methods
+        public async Task<PaginationResult<List<Locus>>> GetLociAsync(int page = 1, int pageSize = 10)
+        {
+            var query = new GraphQLRequest
+            {
+                Query = @"
+                    query GetLoci($page: Int!, $pageSize: Int!) {
+                        loci(page: $page, pageSize: $pageSize) {
+                            currentPage
+                            pageSize
+                            totalItems
+                            totalPages
+                            items {
+                                createdAt
+                                description
+                                isCodis
+                                mutationRate
+                                name
+                                phienNtid
+                            }
+                        }
+                    }",
+                Variables = new { page, pageSize }
+            };
+
+            try
+            {
+                var response = await _graphQLClient.SendQueryAsync<LociListData>(query);
+                return response.Data?.Loci ?? new PaginationResult<List<Locus>>
+                {
+                    Items = new List<Locus>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
+            }
+            catch (Exception ex)
+            {
+                return new PaginationResult<List<Locus>>
+                {
+                    Items = new List<Locus>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
+            }
+        }
+
+        public async Task<PaginationResult<List<Locus>>> SearchLociAsync(string name = null, bool? isCodis = null, int page = 1, int pageSize = 10)
+        {
+            var query = new GraphQLRequest
+            {
+                Query = @"
+                    query SearchLoci($name: String, $isCodis: Boolean, $page: Int!, $pageSize: Int!) {
+                        searchLoci(name: $name, isCodis: $isCodis, page: $page, pageSize: $pageSize) {
+                            currentPage
+                            pageSize
+                            totalItems
+                            totalPages
+                            items {
+                                createdAt
+                                description
+                                isCodis
+                                mutationRate
+                                name
+                                phienNtid
+                            }
+                        }
+                    }",
+                Variables = new { name, isCodis, page, pageSize }
+            };
+
+            try
+            {
+                var response = await _graphQLClient.SendQueryAsync<SearchLociListData>(query);
+                return response.Data?.SearchLoci ?? new PaginationResult<List<Locus>>
+                {
+                    Items = new List<Locus>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
+            }
+            catch (Exception ex)
+            {
+                return new PaginationResult<List<Locus>>
+                {
+                    Items = new List<Locus>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
+            }
+        }
+
+        public async Task<int> CreateLocusAsync(LocusInput input)
+        {
+            var mutation = new GraphQLRequest
+            {
+                Query = @"
+                    mutation CreateLocus($input: LociPhienNtInput!) {
+                        createLoci(loci: $input)
+                    }",
+                Variables = new { input }
+            };
+
+            try
+            {
+                var response = await _graphQLClient.SendMutationAsync<CreateLocusData>(mutation);
+                return response.Data?.CreateLoci ?? 0;
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
+        }
+
+        public async Task<int> UpdateLocusAsync(LocusInput input)
+        {
+            var mutation = new GraphQLRequest
+            {
+                Query = @"
+                    mutation UpdateLocus($input: LociPhienNtInput!) {
+                        updateLoci(loci: $input)
+                    }",
+                Variables = new { input }
+            };
+
+            try
+            {
+                var response = await _graphQLClient.SendMutationAsync<UpdateLocusData>(mutation);
+                return response.Data?.UpdateLoci ?? 0;
+            }
+            catch (Exception ex)
+            {
+                return 0;
+            }
+        }
+
+        public async Task<bool> DeleteLocusAsync(int id)
+        {
+            var mutation = new GraphQLRequest
+            {
+                Query = @"
+                    mutation DeleteLocus($id: Int!) {
+                        deleteLoci(id: $id)
+                    }",
+                Variables = new { id }
+            };
+
+            try
+            {
+                var response = await _graphQLClient.SendMutationAsync<DeleteLocusData>(mutation);
+                return response.Data?.DeleteLoci ?? false;
             }
             catch (Exception ex)
             {

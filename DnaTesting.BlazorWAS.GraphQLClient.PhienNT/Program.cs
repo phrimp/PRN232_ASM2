@@ -14,9 +14,9 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<DnaTestService>();
-
+builder.Services.AddScoped<LociService>();
 
 builder.Services.AddScoped<IGraphQLClient>(c => new GraphQLHttpClient("http://localhost:5081/graphql", new NewtonsoftJsonSerializer()));
-builder.Services.AddScoped                                                                                                                                                                                                                                                                                                                                                                                                                              < GraphQLConsumer>();
+builder.Services.AddScoped<GraphQLConsumer>();
 
- await builder.Build().RunAsync();
+await builder.Build().RunAsync();

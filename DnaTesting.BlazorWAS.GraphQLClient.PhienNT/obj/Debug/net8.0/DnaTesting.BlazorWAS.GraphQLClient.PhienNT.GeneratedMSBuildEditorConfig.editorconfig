@@ -48,6 +48,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/Loci/CreateLocus.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jaVxDcmVhdGVMb2N1cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/Loci/EditLocus.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jaVxFZGl0TG9jdXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/Loci/LociList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jaVxMb2NpTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Work/PRN232_ASM2/DnaTesting.BlazorWAS.GraphQLClient.PhienNT/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

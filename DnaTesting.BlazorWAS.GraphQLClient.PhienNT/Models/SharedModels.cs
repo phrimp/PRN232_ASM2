@@ -47,6 +47,26 @@
         public bool? IsCompleted { get; set; }
     }
 
+    // Loci Models
+    public class Locus
+    {
+        public int PhienNtid { get; set; }
+        public string Name { get; set; }
+        public bool? IsCodis { get; set; }
+        public string Description { get; set; }
+        public decimal? MutationRate { get; set; }
+        public DateTime? CreatedAt { get; set; }
+    }
+
+    public class LocusInput
+    {
+        public int PhienNtid { get; set; }
+        public string Name { get; set; }
+        public bool? IsCodis { get; set; }
+        public string Description { get; set; }
+        public decimal? MutationRate { get; set; }
+    }
+
     // Internal GraphQL response models
     public class LoginData
     {
@@ -76,5 +96,31 @@
     public class DeleteDnaTestData
     {
         public bool DeleteDnaTest { get; set; }
+    }
+
+    // Loci GraphQL response models
+    public class LociListData
+    {
+        public PaginationResult<List<Locus>> Loci { get; set; }
+    }
+
+    public class SearchLociListData
+    {
+        public PaginationResult<List<Locus>> SearchLoci { get; set; }
+    }
+
+    public class CreateLocusData
+    {
+        public int CreateLoci { get; set; }
+    }
+
+    public class UpdateLocusData
+    {
+        public int UpdateLoci { get; set; }
+    }
+
+    public class DeleteLocusData
+    {
+        public bool DeleteLoci { get; set; }
     }
 }
