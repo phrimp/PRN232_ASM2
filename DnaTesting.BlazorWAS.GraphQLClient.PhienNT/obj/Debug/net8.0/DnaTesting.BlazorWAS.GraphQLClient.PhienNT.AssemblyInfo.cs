@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DnaTesting.BlazorWAS.GraphQLClient.PhienNT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf7c4509a8c0b9e60aaa3982d511a59f2dc9133f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3696898250ee38fbd0237c7e1fb378c20426b94a")]
 [assembly: System.Reflection.AssemblyProductAttribute("DnaTesting.BlazorWAS.GraphQLClient.PhienNT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DnaTesting.BlazorWAS.GraphQLClient.PhienNT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

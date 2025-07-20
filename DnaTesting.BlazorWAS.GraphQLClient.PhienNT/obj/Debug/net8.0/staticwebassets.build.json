@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X/nvRJLydehJfYB1M9243ojrAwDn9ulBePLsQHvLf2g=",
+  "Hash": "wWCL90ThZ22E4/mcMzsMDNJW5XYuVWvNyaAYJF8IeCQ=",
   "Source": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "ws947aevwm",
-      "Integrity": "YIZq6Ecv//6R25uFrWuVPeNRH3F5tFYqSjj+CPTXzPk=",
+      "Fingerprint": "jwxm0fdawc",
+      "Integrity": "I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ld69l65bqd",
-      "Integrity": "iaUWhdom3+lDGDc2yLjSHu7yggSecBKt1qg8Zwrh2bM=",
+      "Fingerprint": "gxyc1vt4g5",
+      "Integrity": "1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "pf4m1wrj48",
-      "Integrity": "9VCnCClSqAEEj4UAf6lIWdayB31h3F4oLq5XTEX+DG4=",
+      "Fingerprint": "tpqnv9hkk8",
+      "Integrity": "ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm"
@@ -246,6 +246,153 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.14\\runtimes\\browser-wasm\\native\\src\\emcc-props.json"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.Abstractions.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "pprwjoh20b",
+      "Integrity": "s8iZ5GCNx2ib9fMwtUZOP/+OEjpu9NGkg5cn2RP7Mh4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\GraphQL.Client.Abstractions.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.Websocket.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.Abstractions.Websocket.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "996mn9s0td",
+      "Integrity": "LcSjE5P03LBH/3NlINJUdOnJmGVP1922xxQZmPMH+6w=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\GraphQL.Client.Abstractions.Websocket.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Serializer.Newtonsoft.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.Serializer.Newtonsoft.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "914wa072h3",
+      "Integrity": "bRZ6kc5C3qgFjQMcxS2otPJA5uK62XJJFMx6mXeNp7Q=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\GraphQL.Client.Serializer.Newtonsoft.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "hab9i65nec",
+      "Integrity": "advkMXLjDiQeWHPCdCbcvwN2b080S50Ztn7NKkLtdew=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\GraphQL.Client.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Primitives.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Primitives.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "n59qndv0qo",
+      "Integrity": "22tHNALrN+VVcouGufGqf0btTmOAmxM/4gIDliph3QY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\GraphQL.Primitives.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "zo76t8xata",
+      "Integrity": "jaZqSZADCWLJZr+qUYeqO26e82U1T9UiEjCdWny4foo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\GraphQL.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQLParser.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQLParser.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "hckzhgq231",
+      "Integrity": "wWLCGrjCg1JP4Ergw182LU4W2ymLO1F5nXQ2KBMQz4U=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\GraphQLParser.wasm"
     },
     {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -918,6 +1065,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\netstandard.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "qkbufwhni2",
+      "Integrity": "GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\Newtonsoft.Json.wasm"
     },
     {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm",
@@ -2703,6 +2871,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\System.Private.Xml.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reactive.wasm",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Reactive.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "Fingerprint": "c15raio1t6",
+      "Integrity": "QOQPFitCA3l0ZnlO+zVuhIG+xXDVH9CHyrfN2bXZkT8=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\webcil\\System.Reactive.wasm"
     },
     {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.wasm",
@@ -5078,6 +5267,27 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\84uqem73i2-996mn9s0td.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.Abstractions.Websocket.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.Websocket.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "izv8ctdstb",
+      "Integrity": "Erx1EDnQDtfa1m883ykjTC7mP40laesbdMvgf2I30P0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.Websocket.wasm"
+    },
+    {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\8xy5woglu7-3sr6cqqjee.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
@@ -5309,7 +5519,7 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm"
     },
     {
-      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-pf4m1wrj48.gz",
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-tpqnv9hkk8.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -5323,8 +5533,8 @@
       "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "8qp2mqoqqy",
-      "Integrity": "QJMnHAEnf6uXb88qOWD7c4FkktvrIQh0fIR939KEst8=",
+      "Fingerprint": "pu47qvywku",
+      "Integrity": "UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm"
@@ -5622,6 +5832,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\c6dvlzov3q-hckzhgq231.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQLParser.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQLParser.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v520vmz70r",
+      "Integrity": "85HjvwjvLBBSkx2bcPhLJJVnEeC2kPc/63LXTOnfkto=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQLParser.wasm"
     },
     {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\c74olr4ss9-txf2gnjtjs.gz",
@@ -6968,6 +7199,27 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\netstandard.wasm"
     },
     {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\nvkmjmoulw-hab9i65nec.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a4juv3euvi",
+      "Integrity": "SoeFz8qKF+1Pj/lTmjjcKHjgQ/60uee+3TFCkxoYoTQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.wasm"
+    },
+    {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\ny8vj0su68-ftuc8td0v9.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
@@ -7493,6 +7745,27 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.Linq.wasm"
     },
     {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\qsi6mop3a2-qkbufwhni2.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qz6x9kah8x",
+      "Integrity": "WgVIz31Y8ErfPwrLOyXOLlUMz220V0lAKQO0IVJz9+A=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm"
+    },
+    {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\qussvj59uu-2pljxcp565.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
@@ -7535,6 +7808,27 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Queryable.wasm"
     },
     {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\qw8usrilk4-c15raio1t6.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Reactive.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reactive.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "91yurh8y6h",
+      "Integrity": "Mxl6UPjWBAH88uD0U/WyDxbuHr59TXxWE9tBciPh2KI=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reactive.wasm"
+    },
+    {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\r8xnvonre4-dfx4aevtsa.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
@@ -7575,6 +7869,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\rfxwyb70tr-zo76t8xata.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fegscjbyix",
+      "Integrity": "+dW9ftfg6r7dYZxBfcd3haCSTKVjSi0khikvaW9F8L4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.wasm"
     },
     {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\rjh7saj1yq-olj0es83u8.gz",
@@ -7682,7 +7997,7 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.wasm"
     },
     {
-      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-ld69l65bqd.gz",
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-gxyc1vt4g5.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -7696,8 +8011,8 @@
       "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4er0sk8zy6",
-      "Integrity": "rDaIL52ig2wtcgiK0hy6pW4KfC14GiaYoqKA+E5rwKQ=",
+      "Fingerprint": "ubj93ecjfs",
+      "Integrity": "5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb"
@@ -7850,6 +8165,27 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.wasm"
     },
     {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\tpkim93jjs-pprwjoh20b.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.Abstractions.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sjnwv3qkth",
+      "Integrity": "yLWom8xc9BCQgx62KZOWLwD/UeJGxznLlK3bq2s8Z+o=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.wasm"
+    },
+    {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\ud8p5s7bqi-iff9je38u1.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
@@ -7890,6 +8226,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Formats.Tar.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\uiflazk7je-n59qndv0qo.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Primitives.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Primitives.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zcbte1wmu8",
+      "Integrity": "w9D/J9nHemlObyZw0Gt8koZU5/E+BcZbvZg00mxd6Ds=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Primitives.wasm"
     },
     {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\uiujdwg5vh-mbb41zwm8k.gz",
@@ -7997,7 +8354,7 @@
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encodings.Web.wasm"
     },
     {
-      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-ws947aevwm.gz",
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-jwxm0fdawc.gz",
       "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
@@ -8011,8 +8368,8 @@
       "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "12jp4nj034",
-      "Integrity": "uZxeu0VuS70Bj7walkPLS05tMjvObLIvbTWz1l4s9XM=",
+      "Fingerprint": "a1sqklc4rb",
+      "Integrity": "kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8373,6 +8730,27 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Process.wasm"
+    },
+    {
+      "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\xxpzoc7wju-914wa072h3.gz",
+      "SourceId": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/GraphQL.Client.Serializer.Newtonsoft.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Serializer.Newtonsoft.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7vj5u9146w",
+      "Integrity": "LVrd9GNrqZCcypzFVAXMDWwrw+3Bt8THIpgGIsFzPxo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Serializer.Newtonsoft.wasm"
     },
     {
       "Identity": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\y7szhp088e-fzb5jh2dmj.gz",
@@ -8836,11 +9214,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YIZq6Ecv//6R25uFrWuVPeNRH3F5tFYqSjj+CPTXzPk=\""
+          "Value": "\"I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8850,18 +9228,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YIZq6Ecv//6R25uFrWuVPeNRH3F5tFYqSjj+CPTXzPk="
+          "Value": "sha256-I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-ws947aevwm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-jwxm0fdawc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000112726863"
+          "Quality": "0.000108154878"
         }
       ],
       "ResponseHeaders": [
@@ -8871,11 +9249,11 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8870"
+          "Value": "9245"
         },
         {
           "Name": "ETag",
-          "Value": "\"uZxeu0VuS70Bj7walkPLS05tMjvObLIvbTWz1l4s9XM=\""
+          "Value": "\"kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU=\""
         },
         {
           "Name": "Last-Modified",
@@ -8899,19 +9277,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YIZq6Ecv//6R25uFrWuVPeNRH3F5tFYqSjj+CPTXzPk=\""
+          "Value": "W/\"I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YIZq6Ecv//6R25uFrWuVPeNRH3F5tFYqSjj+CPTXzPk="
+          "Value": "sha256-I0ES7xOX4CIpVqKoGQfIm68D/EiXDzIiApIcRdgDc3s="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-ws947aevwm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\vezctc18j8-jwxm0fdawc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8920,7 +9298,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8870"
+          "Value": "9245"
         },
         {
           "Name": "Content-Type",
@@ -8928,7 +9306,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uZxeu0VuS70Bj7walkPLS05tMjvObLIvbTWz1l4s9XM=\""
+          "Value": "\"kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU=\""
         },
         {
           "Name": "Last-Modified",
@@ -8950,7 +9328,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uZxeu0VuS70Bj7walkPLS05tMjvObLIvbTWz1l4s9XM="
+          "Value": "sha256-kid4SscqAjT6+S7J8VWF9EmxPHGpUrdJcHb6B4IVxnU="
         }
       ]
     },
@@ -9016,7 +9394,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Thu, 13 Feb 2025 05:18:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9069,7 +9447,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Thu, 13 Feb 2025 05:18:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9110,7 +9488,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"iaUWhdom3+lDGDc2yLjSHu7yggSecBKt1qg8Zwrh2bM=\""
+          "Value": "\"1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-gxyc1vt4g5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000056924916"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17566"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw=\""
         },
         {
           "Name": "Last-Modified",
@@ -9119,45 +9536,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-iaUWhdom3+lDGDc2yLjSHu7yggSecBKt1qg8Zwrh2bM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-ld69l65bqd.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000058264872"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "17162"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rDaIL52ig2wtcgiK0hy6pW4KfC14GiaYoqKA+E5rwKQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9173,19 +9551,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"iaUWhdom3+lDGDc2yLjSHu7yggSecBKt1qg8Zwrh2bM=\""
+          "Value": "W/\"1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-iaUWhdom3+lDGDc2yLjSHu7yggSecBKt1qg8Zwrh2bM="
+          "Value": "sha256-1Ige1SS4DXEk8B3Bq0/j5o3u3/lERURRzRYKjw9TuzY="
         }
       ]
     },
     {
       "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.pdb.gz",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-ld69l65bqd.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\s55h7xnhip-gxyc1vt4g5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9194,7 +9572,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "17162"
+          "Value": "17566"
         },
         {
           "Name": "Content-Type",
@@ -9202,11 +9580,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rDaIL52ig2wtcgiK0hy6pW4KfC14GiaYoqKA+E5rwKQ=\""
+          "Value": "\"5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9224,7 +9602,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rDaIL52ig2wtcgiK0hy6pW4KfC14GiaYoqKA+E5rwKQ="
+          "Value": "sha256-5tqEQgta2JjUcjHrvf6NgDpVadnjiuV3fgZGOTNphzw="
         }
       ]
     },
@@ -9247,7 +9625,46 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9VCnCClSqAEEj4UAf6lIWdayB31h3F4oLq5XTEX+DG4=\""
+          "Value": "\"ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-tpqnv9hkk8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000125565043"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7963"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8=\""
         },
         {
           "Name": "Last-Modified",
@@ -9256,45 +9673,6 @@
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-9VCnCClSqAEEj4UAf6lIWdayB31h3F4oLq5XTEX+DG4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-pf4m1wrj48.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000130039012"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7689"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QJMnHAEnf6uXb88qOWD7c4FkktvrIQh0fIR939KEst8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -9310,19 +9688,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"9VCnCClSqAEEj4UAf6lIWdayB31h3F4oLq5XTEX+DG4=\""
+          "Value": "W/\"ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9VCnCClSqAEEj4UAf6lIWdayB31h3F4oLq5XTEX+DG4="
+          "Value": "sha256-ATqM+ir7fWo3QrW0JpDWPAAkSKbIMHVG2IOVETfK4wM="
         }
       ]
     },
     {
       "Route": "_framework/DnaTesting.BlazorWAS.GraphQLClient.PhienNT.wasm.gz",
-      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-pf4m1wrj48.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\adtvu8tar4-tpqnv9hkk8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9331,7 +9709,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7689"
+          "Value": "7963"
         },
         {
           "Name": "Content-Type",
@@ -9339,11 +9717,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QJMnHAEnf6uXb88qOWD7c4FkktvrIQh0fIR939KEst8=\""
+          "Value": "\"UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9361,7 +9739,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QJMnHAEnf6uXb88qOWD7c4FkktvrIQh0fIR939KEst8="
+          "Value": "sha256-UWrN4GJ3PzIt/p9a2wKACRT6HSILfJHZQ1u8xdWp+Q8="
         }
       ]
     },
@@ -9427,7 +9805,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9480,7 +9858,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9564,7 +9942,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9617,7 +9995,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9701,7 +10079,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9754,7 +10132,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9838,7 +10216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9891,7 +10269,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9975,7 +10353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10028,7 +10406,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10112,7 +10490,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10165,7 +10543,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:43:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10249,7 +10627,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:42:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10302,7 +10680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Wed, 12 Feb 2025 04:42:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10321,6 +10699,965 @@
         {
           "Name": "integrity",
           "Value": "sha256-7t6AVk6lvrWEqY7hRavzlgS107PQ4doQEFxFK3dDtRQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Abstractions.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s8iZ5GCNx2ib9fMwtUZOP/+OEjpu9NGkg5cn2RP7Mh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s8iZ5GCNx2ib9fMwtUZOP/+OEjpu9NGkg5cn2RP7Mh4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Abstractions.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\tpkim93jjs-pprwjoh20b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000060164852"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16620"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yLWom8xc9BCQgx62KZOWLwD/UeJGxznLlK3bq2s8Z+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"s8iZ5GCNx2ib9fMwtUZOP/+OEjpu9NGkg5cn2RP7Mh4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s8iZ5GCNx2ib9fMwtUZOP/+OEjpu9NGkg5cn2RP7Mh4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Abstractions.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\tpkim93jjs-pprwjoh20b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yLWom8xc9BCQgx62KZOWLwD/UeJGxznLlK3bq2s8Z+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yLWom8xc9BCQgx62KZOWLwD/UeJGxznLlK3bq2s8Z+o="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Abstractions.Websocket.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Abstractions.Websocket.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LcSjE5P03LBH/3NlINJUdOnJmGVP1922xxQZmPMH+6w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LcSjE5P03LBH/3NlINJUdOnJmGVP1922xxQZmPMH+6w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Abstractions.Websocket.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\84uqem73i2-996mn9s0td.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000077315602"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12933"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Erx1EDnQDtfa1m883ykjTC7mP40laesbdMvgf2I30P0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LcSjE5P03LBH/3NlINJUdOnJmGVP1922xxQZmPMH+6w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LcSjE5P03LBH/3NlINJUdOnJmGVP1922xxQZmPMH+6w="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Abstractions.Websocket.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\84uqem73i2-996mn9s0td.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12933"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Erx1EDnQDtfa1m883ykjTC7mP40laesbdMvgf2I30P0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Erx1EDnQDtfa1m883ykjTC7mP40laesbdMvgf2I30P0="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Serializer.Newtonsoft.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.Serializer.Newtonsoft.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bRZ6kc5C3qgFjQMcxS2otPJA5uK62XJJFMx6mXeNp7Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bRZ6kc5C3qgFjQMcxS2otPJA5uK62XJJFMx6mXeNp7Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Serializer.Newtonsoft.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\xxpzoc7wju-914wa072h3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000069165860"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14457"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LVrd9GNrqZCcypzFVAXMDWwrw+3Bt8THIpgGIsFzPxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bRZ6kc5C3qgFjQMcxS2otPJA5uK62XJJFMx6mXeNp7Q=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bRZ6kc5C3qgFjQMcxS2otPJA5uK62XJJFMx6mXeNp7Q="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.Serializer.Newtonsoft.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\xxpzoc7wju-914wa072h3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14457"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LVrd9GNrqZCcypzFVAXMDWwrw+3Bt8THIpgGIsFzPxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LVrd9GNrqZCcypzFVAXMDWwrw+3Bt8THIpgGIsFzPxo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Client.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"advkMXLjDiQeWHPCdCbcvwN2b080S50Ztn7NKkLtdew=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-advkMXLjDiQeWHPCdCbcvwN2b080S50Ztn7NKkLtdew="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\nvkmjmoulw-hab9i65nec.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000022663403"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44123"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SoeFz8qKF+1Pj/lTmjjcKHjgQ/60uee+3TFCkxoYoTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"advkMXLjDiQeWHPCdCbcvwN2b080S50Ztn7NKkLtdew=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-advkMXLjDiQeWHPCdCbcvwN2b080S50Ztn7NKkLtdew="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Client.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\nvkmjmoulw-hab9i65nec.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44123"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SoeFz8qKF+1Pj/lTmjjcKHjgQ/60uee+3TFCkxoYoTQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SoeFz8qKF+1Pj/lTmjjcKHjgQ/60uee+3TFCkxoYoTQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Primitives.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.Primitives.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"22tHNALrN+VVcouGufGqf0btTmOAmxM/4gIDliph3QY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-22tHNALrN+VVcouGufGqf0btTmOAmxM/4gIDliph3QY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Primitives.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\uiflazk7je-n59qndv0qo.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000057100440"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17512"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w9D/J9nHemlObyZw0Gt8koZU5/E+BcZbvZg00mxd6Ds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"22tHNALrN+VVcouGufGqf0btTmOAmxM/4gIDliph3QY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-22tHNALrN+VVcouGufGqf0btTmOAmxM/4gIDliph3QY="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.Primitives.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\uiflazk7je-n59qndv0qo.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w9D/J9nHemlObyZw0Gt8koZU5/E+BcZbvZg00mxd6Ds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w9D/J9nHemlObyZw0Gt8koZU5/E+BcZbvZg00mxd6Ds="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQL.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1057557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jaZqSZADCWLJZr+qUYeqO26e82U1T9UiEjCdWny4foo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jaZqSZADCWLJZr+qUYeqO26e82U1T9UiEjCdWny4foo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\rfxwyb70tr-zo76t8xata.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000002131228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469212"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+dW9ftfg6r7dYZxBfcd3haCSTKVjSi0khikvaW9F8L4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jaZqSZADCWLJZr+qUYeqO26e82U1T9UiEjCdWny4foo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jaZqSZADCWLJZr+qUYeqO26e82U1T9UiEjCdWny4foo="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQL.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\rfxwyb70tr-zo76t8xata.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+dW9ftfg6r7dYZxBfcd3haCSTKVjSi0khikvaW9F8L4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+dW9ftfg6r7dYZxBfcd3haCSTKVjSi0khikvaW9F8L4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQLParser.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\GraphQLParser.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "330517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wWLCGrjCg1JP4Ergw182LU4W2ymLO1F5nXQ2KBMQz4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wWLCGrjCg1JP4Ergw182LU4W2ymLO1F5nXQ2KBMQz4U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQLParser.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\c6dvlzov3q-hckzhgq231.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007475071"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133777"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85HjvwjvLBBSkx2bcPhLJJVnEeC2kPc/63LXTOnfkto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"wWLCGrjCg1JP4Ergw182LU4W2ymLO1F5nXQ2KBMQz4U=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wWLCGrjCg1JP4Ergw182LU4W2ymLO1F5nXQ2KBMQz4U="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/GraphQLParser.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\c6dvlzov3q-hckzhgq231.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"85HjvwjvLBBSkx2bcPhLJJVnEeC2kPc/63LXTOnfkto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-85HjvwjvLBBSkx2bcPhLJJVnEeC2kPc/63LXTOnfkto="
         }
       ]
     },
@@ -10386,7 +11723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10439,7 +11776,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10523,7 +11860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10576,7 +11913,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10660,7 +11997,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10713,7 +12050,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 23 Oct 2023 14:14:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10797,7 +12134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10850,7 +12187,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10934,7 +12271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10987,7 +12324,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11071,7 +12408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11124,7 +12461,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11208,7 +12545,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11261,7 +12598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11345,7 +12682,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11398,7 +12735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11482,7 +12819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11535,7 +12872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11619,7 +12956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11672,7 +13009,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11756,7 +13093,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11809,7 +13146,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11893,7 +13230,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11946,7 +13283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12030,7 +13367,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12083,7 +13420,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12167,7 +13504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12220,7 +13557,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12304,7 +13641,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12357,7 +13694,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12441,7 +13778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12494,7 +13831,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12578,7 +13915,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12631,7 +13968,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12715,7 +14052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12768,7 +14105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12852,7 +14189,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12905,7 +14242,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12989,7 +14326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13042,7 +14379,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13126,7 +14463,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13179,7 +14516,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13263,7 +14600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13316,7 +14653,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13400,7 +14737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13453,7 +14790,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13537,7 +14874,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13590,7 +14927,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13674,7 +15011,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13727,7 +15064,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13811,7 +15148,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13864,7 +15201,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13948,7 +15285,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14001,7 +15338,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14085,7 +15422,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14138,7 +15475,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14222,7 +15559,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14275,7 +15612,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14359,7 +15696,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14412,7 +15749,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14496,7 +15833,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14549,7 +15886,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14633,7 +15970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14686,7 +16023,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14705,6 +16042,143 @@
         {
           "Name": "integrity",
           "Value": "sha256-5/hOaxQd83dsYM42abgH7u1MJ5rounz1WV7NL+TrwYI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Newtonsoft.Json.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "700181"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\qsi6mop3a2-qkbufwhni2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003837991"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "260552"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WgVIz31Y8ErfPwrLOyXOLlUMz220V0lAKQO0IVJz9+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Newtonsoft.Json.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\qsi6mop3a2-qkbufwhni2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "260552"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WgVIz31Y8ErfPwrLOyXOLlUMz220V0lAKQO0IVJz9+A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WgVIz31Y8ErfPwrLOyXOLlUMz220V0lAKQO0IVJz9+A="
         }
       ]
     },
@@ -14770,7 +16244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14823,7 +16297,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14907,7 +16381,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14960,7 +16434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15044,7 +16518,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15097,7 +16571,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15181,7 +16655,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15234,7 +16708,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15318,7 +16792,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15371,7 +16845,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15455,7 +16929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15508,7 +16982,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15592,7 +17066,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15645,7 +17119,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15729,7 +17203,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15782,7 +17256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15866,7 +17340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15919,7 +17393,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16003,7 +17477,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16056,7 +17530,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16140,7 +17614,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16193,7 +17667,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16277,7 +17751,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16330,7 +17804,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16414,7 +17888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16467,7 +17941,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16551,7 +18025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16604,7 +18078,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16688,7 +18162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16741,7 +18215,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16825,7 +18299,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16878,7 +18352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16962,7 +18436,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17015,7 +18489,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17099,7 +18573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17152,7 +18626,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17236,7 +18710,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17289,7 +18763,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17373,7 +18847,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17426,7 +18900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17510,7 +18984,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17563,7 +19037,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17647,7 +19121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17700,7 +19174,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17784,7 +19258,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17837,7 +19311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17921,7 +19395,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17974,7 +19448,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18058,7 +19532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18111,7 +19585,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18195,7 +19669,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18248,7 +19722,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18332,7 +19806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18385,7 +19859,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18469,7 +19943,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18522,7 +19996,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18606,7 +20080,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18659,7 +20133,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18743,7 +20217,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18796,7 +20270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18880,7 +20354,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -18933,7 +20407,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19017,7 +20491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19070,7 +20544,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19154,7 +20628,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19207,7 +20681,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19291,7 +20765,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19344,7 +20818,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19428,7 +20902,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19481,7 +20955,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19565,7 +21039,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19618,7 +21092,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19702,7 +21176,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19755,7 +21229,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19839,7 +21313,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19892,7 +21366,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -19976,7 +21450,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20029,7 +21503,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20113,7 +21587,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20166,7 +21640,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20250,7 +21724,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20303,7 +21777,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20387,7 +21861,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20440,7 +21914,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20524,7 +21998,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20577,7 +22051,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20661,7 +22135,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20714,7 +22188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20798,7 +22272,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20851,7 +22325,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20935,7 +22409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -20988,7 +22462,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21072,7 +22546,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21125,7 +22599,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21209,7 +22683,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21262,7 +22736,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21346,7 +22820,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21399,7 +22873,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21483,7 +22957,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21536,7 +23010,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21620,7 +23094,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21673,7 +23147,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21757,7 +23231,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21810,7 +23284,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21894,7 +23368,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -21947,7 +23421,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22031,7 +23505,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22084,7 +23558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22168,7 +23642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22221,7 +23695,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22305,7 +23779,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22358,7 +23832,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22442,7 +23916,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22495,7 +23969,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22579,7 +24053,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22632,7 +24106,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22716,7 +24190,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22769,7 +24243,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22853,7 +24327,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22906,7 +24380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22990,7 +24464,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23043,7 +24517,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23127,7 +24601,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23180,7 +24654,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23264,7 +24738,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23317,7 +24791,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23401,7 +24875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23454,7 +24928,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23538,7 +25012,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23591,7 +25065,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23675,7 +25149,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23728,7 +25202,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23812,7 +25286,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23865,7 +25339,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23949,7 +25423,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24002,7 +25476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24086,7 +25560,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24139,7 +25613,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24223,7 +25697,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24276,7 +25750,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24360,7 +25834,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24413,7 +25887,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24497,7 +25971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24550,7 +26024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24634,7 +26108,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24687,7 +26161,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24771,7 +26245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24824,7 +26298,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24908,7 +26382,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24961,7 +26435,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25045,7 +26519,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25098,7 +26572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25182,7 +26656,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25235,7 +26709,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25319,7 +26793,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25372,7 +26846,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25456,7 +26930,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25509,7 +26983,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25593,7 +27067,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25646,7 +27120,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25730,7 +27204,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25783,7 +27257,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25867,7 +27341,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -25920,7 +27394,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26004,7 +27478,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26057,7 +27531,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26141,7 +27615,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26194,7 +27668,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26278,7 +27752,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26331,7 +27805,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26350,6 +27824,143 @@
         {
           "Name": "integrity",
           "Value": "sha256-7hvOJDDDd4U5DhoRkE9rTXFjqG87iYbFIG2f6GwDNwQ="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Reactive.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reactive.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333013"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QOQPFitCA3l0ZnlO+zVuhIG+xXDVH9CHyrfN2bXZkT8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QOQPFitCA3l0ZnlO+zVuhIG+xXDVH9CHyrfN2bXZkT8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Reactive.wasm",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\qw8usrilk4-c15raio1t6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000002648249"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "377607"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mxl6UPjWBAH88uD0U/WyDxbuHr59TXxWE9tBciPh2KI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QOQPFitCA3l0ZnlO+zVuhIG+xXDVH9CHyrfN2bXZkT8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QOQPFitCA3l0ZnlO+zVuhIG+xXDVH9CHyrfN2bXZkT8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/System.Reactive.wasm.gz",
+      "AssetFile": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\compressed\\qw8usrilk4-c15raio1t6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "377607"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mxl6UPjWBAH88uD0U/WyDxbuHr59TXxWE9tBciPh2KI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Jul 2025 18:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mxl6UPjWBAH88uD0U/WyDxbuHr59TXxWE9tBciPh2KI="
         }
       ]
     },
@@ -26415,7 +28026,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26468,7 +28079,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26552,7 +28163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26605,7 +28216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26689,7 +28300,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26742,7 +28353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26826,7 +28437,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26879,7 +28490,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26963,7 +28574,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27016,7 +28627,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27100,7 +28711,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27153,7 +28764,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27237,7 +28848,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27290,7 +28901,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27374,7 +28985,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27427,7 +29038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27511,7 +29122,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27564,7 +29175,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27648,7 +29259,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27701,7 +29312,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27785,7 +29396,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27838,7 +29449,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27922,7 +29533,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27975,7 +29586,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28059,7 +29670,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28112,7 +29723,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28196,7 +29807,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28249,7 +29860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28333,7 +29944,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28386,7 +29997,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28470,7 +30081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28523,7 +30134,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28607,7 +30218,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28660,7 +30271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28744,7 +30355,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28797,7 +30408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28881,7 +30492,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -28934,7 +30545,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29018,7 +30629,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29071,7 +30682,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29155,7 +30766,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29208,7 +30819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29292,7 +30903,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29345,7 +30956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29429,7 +31040,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29482,7 +31093,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29566,7 +31177,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29619,7 +31230,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29703,7 +31314,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29756,7 +31367,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29840,7 +31451,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29893,7 +31504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -29977,7 +31588,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30030,7 +31641,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30114,7 +31725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30167,7 +31778,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30251,7 +31862,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30304,7 +31915,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30388,7 +31999,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30441,7 +32052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30525,7 +32136,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30578,7 +32189,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30662,7 +32273,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30715,7 +32326,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30799,7 +32410,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30852,7 +32463,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30936,7 +32547,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -30989,7 +32600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31073,7 +32684,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31126,7 +32737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31210,7 +32821,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31263,7 +32874,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31347,7 +32958,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31400,7 +33011,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31484,7 +33095,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31537,7 +33148,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31621,7 +33232,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31674,7 +33285,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31758,7 +33369,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31811,7 +33422,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31895,7 +33506,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31948,7 +33559,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32032,7 +33643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32085,7 +33696,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32169,7 +33780,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32222,7 +33833,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32306,7 +33917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32359,7 +33970,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32443,7 +34054,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32496,7 +34107,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32580,7 +34191,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32633,7 +34244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32717,7 +34328,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32770,7 +34381,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32854,7 +34465,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32907,7 +34518,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -32991,7 +34602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33044,7 +34655,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33128,7 +34739,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33181,7 +34792,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33265,7 +34876,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33318,7 +34929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33402,7 +35013,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33455,7 +35066,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33539,7 +35150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33592,7 +35203,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33676,7 +35287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33729,7 +35340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33813,7 +35424,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33866,7 +35477,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -33950,7 +35561,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34003,7 +35614,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34087,7 +35698,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34140,7 +35751,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34224,7 +35835,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34277,7 +35888,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34361,7 +35972,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34414,7 +36025,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34498,7 +36109,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34551,7 +36162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34635,7 +36246,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34688,7 +36299,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34772,7 +36383,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34825,7 +36436,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34909,7 +36520,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34962,7 +36573,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35046,7 +36657,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35099,7 +36710,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35183,7 +36794,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35236,7 +36847,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35320,7 +36931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35373,7 +36984,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35457,7 +37068,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35510,7 +37121,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35594,7 +37205,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35647,7 +37258,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35731,7 +37342,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35784,7 +37395,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35868,7 +37479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35921,7 +37532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36005,7 +37616,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36058,7 +37669,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36142,7 +37753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36195,7 +37806,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36279,7 +37890,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36332,7 +37943,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36416,7 +38027,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36469,7 +38080,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36553,7 +38164,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36606,7 +38217,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36690,7 +38301,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36743,7 +38354,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36827,7 +38438,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36880,7 +38491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 16 Jun 2025 03:51:52 GMT"
+          "Value": "Mon, 16 Jun 2025 03:51:50 GMT"
         },
         {
           "Name": "Cache-Control",

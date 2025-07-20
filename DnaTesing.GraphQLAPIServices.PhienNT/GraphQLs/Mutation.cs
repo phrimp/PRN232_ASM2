@@ -49,5 +49,38 @@ namespace DnaTesing.GraphQLAPIServices.PhienNT.GraphQLs
             }
             return false;
         }
+
+        public async Task<int> CreateLoci(LociPhienNt loci)
+        {
+            try
+            {
+                return await _serviceProvider.LociPhienNtService.CreateAsync(loci);
+            }
+            catch { return 0; }
+        }
+
+        public async Task<int> UpdateLoci(LociPhienNt loci)
+        {
+            try
+            {
+                return await _serviceProvider.LociPhienNtService.UpdateAsync(loci);
+            }
+            catch { return 0; }
+        }
+
+        public async Task<bool> DeleteLoci(int id)
+        {
+            try
+            {
+                var res = await _serviceProvider.LociPhienNtService.DeleteAsync(id);
+                return res;
+
+            }
+            catch (Exception ex )
+            {
+
+            }
+            return false;
+        }
     }
 }

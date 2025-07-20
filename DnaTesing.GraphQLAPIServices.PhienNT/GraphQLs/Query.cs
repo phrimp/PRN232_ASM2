@@ -23,5 +23,18 @@ namespace DnaTesing.GraphQLAPIServices.PhienNT.GraphQLs
                 
             }
         }
+
+        public async Task<List<LociPhienNt>> GetLoci()
+        {
+            try
+            {
+                var res = await _serviceProvider.LociPhienNtService.GetAllAsync();
+                return res ?? new List<LociPhienNt>();
+            }
+            catch (Exception ex)
+            {
+                return new List<LociPhienNt>();
+            }
+        }
     }
 }
