@@ -16,36 +16,49 @@
                 }
 
                 <EditForm Model="dnaTestModel" OnValidSubmit="HandleCreate">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary class="alert alert-danger" />
+
                     <div class="mb-3">
-                        <label class="form-label">Test Type:</label>
+                        <label class="form-label">Test Type: <span class="text-danger">*</span></label>
                         <InputSelect class="form-select" @bind-Value="dnaTestModel.TestType">
-                            <option value="">Select Test Type</option>
+                            <option value="">-- Select Test Type --</option>
                             <option value="Paternity">Paternity</option>
                             <option value="Maternity">Maternity</option>
                             <option value="Sibling">Sibling</option>
                             <option value="Grandparent">Grandparent</option>
                             <option value="Relationship">Relationship</option>
                         </InputSelect>
+                        <ValidationMessage For="@(() => dnaTestModel.TestType)" class="text-danger" />
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Conclusion:</label>
-                        <InputTextArea class="form-control" rows="3" @bind-Value="dnaTestModel.Conclusion" />
+                        <InputTextArea class="form-control" rows="3" @bind-Value="dnaTestModel.Conclusion"
+                                       placeholder="Enter test conclusion (max 500 characters)" />
+                        <ValidationMessage For="@(() => dnaTestModel.Conclusion)" class="text-danger" />
+                        <div class="form-text">@(dnaTestModel.Conclusion?.Length ?? 0)/500 characters</div>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Probability of Relationship (%):</label>
-                        <InputNumber class="form-control" @bind-Value="dnaTestModel.ProbabilityOfRelationship" />
+                        <InputNumber class="form-control" @bind-Value="dnaTestModel.ProbabilityOfRelationship"
+                                     placeholder="0-100" step="0.01" />
+                        <ValidationMessage For="@(() => dnaTestModel.ProbabilityOfRelationship)" class="text-danger" />
+                        <div class="form-text">Enter value between 0 and 100</div>
                     </div>
 
                     <div class="mb-3">
                         <label class="form-label">Relationship Index:</label>
-                        <InputNumber class="form-control" @bind-Value="dnaTestModel.RelationshipIndex" />
+                        <InputNumber class="form-control" @bind-Value="dnaTestModel.RelationshipIndex"
+                                     placeholder="Enter positive number" step="0.01" />
+                        <ValidationMessage For="@(() => dnaTestModel.RelationshipIndex)" class="text-danger" />
+                        <div class="form-text">Must be a positive number</div>
                     </div>
 
                     <div class="mb-3 form-check">
-                        <InputCheckbox class="form-check-input" @bind-Value="dnaTestModel.IsCompleted" />
-                        <label class="form-check-label">Test Completed</label>
+                        <InputCheckbox class="form-check-input" @bind-Value="dnaTestModel.IsCompleted" id="isCompleted" />
+                        <label class="form-check-label" for="isCompleted">Test Completed</label>
                     </div>
 
                     <div class="d-flex gap-2">
@@ -59,6 +72,21 @@
                         <a href="/dnatests" class="btn btn-secondary">Cancel</a>
                     </div>
                 </EditForm>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h5>Validation Rules</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li><i class="text-danger">*</i> <strong>Test Type:</strong> Required field</li>
+                    <li><i class="text-info">•</i> <strong>Conclusion:</strong> Maximum 500 characters</li>
+                    <li><i class="text-info">•</i> <strong>Probability:</strong> Between 0 and 100</li>
+                    <li><i class="text-info">•</i> <strong>Relationship Index:</strong> Must be positive</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -93,7 +121,7 @@
             }
             else
             {
-                errorMessage = "Failed to create DNA test.";
+                errorMessage = "Failed to create DNA test. Please try again.";
             }
         }
         catch (Exception ex)
@@ -104,14 +132,5 @@
         {
             isSubmitting = false;
         }
-    }
-
-    public class DnaTestCreateModel
-    {
-        public string TestType { get; set; } = "";
-        public string Conclusion { get; set; } = "";
-        public decimal? ProbabilityOfRelationship { get; set; }
-        public decimal? RelationshipIndex { get; set; }
-        public bool IsCompleted { get; set; } = false;
     }
 }

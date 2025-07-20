@@ -1,5 +1,6 @@
 ﻿using GraphQL.Client.Abstractions;
 using GraphQL;
+using DnaTesting.BlazorWAS.GraphQLClient.PhienNT.Models;
 
 namespace DnaTesting.BlazorWAS.GraphQLClient.PhienNT.GraphQLClient
 {
@@ -60,38 +61,104 @@ namespace DnaTesting.BlazorWAS.GraphQLClient.PhienNT.GraphQLClient
                 };
             }
         }
-        public async Task<List<DnaTest>> GetDnaTestsAsync()
+
+        public async Task<PaginationResult<List<DnaTest>>> GetDnaTestsAsync(int page = 1, int pageSize = 10)
         {
             var query = new GraphQLRequest
             {
                 Query = @"
-                    query {
-                        getDnaTests {
-                            totalItems
-                            totalPages
+                    query GetDnaTests($page: Int!, $pageSize: Int!) {
+                        dnaTests(page: $page, pageSize: $pageSize) {
                             currentPage
                             pageSize
+                            totalItems
+                            totalPages
                             items {
-                                phienNtid
-                                testType
                                 conclusion
+                                createdAt
+                                isCompleted
+                                phienNtid
                                 probabilityOfRelationship
                                 relationshipIndex
-                                isCompleted
-                                createdAt
+                                testType
                             }
                         }
-                    }"
+                    }",
+                Variables = new { page, pageSize }
             };
 
             try
             {
                 var response = await _graphQLClient.SendQueryAsync<DnaTestListData>(query);
-                return response.Data?.GetDnaTests?.Items ?? new List<DnaTest>();
+                return response.Data?.DnaTests ?? new PaginationResult<List<DnaTest>>
+                {
+                    Items = new List<DnaTest>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
             }
             catch (Exception ex)
             {
-                return new List<DnaTest>();
+                return new PaginationResult<List<DnaTest>>
+                {
+                    Items = new List<DnaTest>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
+            }
+        }
+
+        public async Task<PaginationResult<List<DnaTest>>> SearchDnaTestsAsync(string testType = null, bool? isCompleted = null, int page = 1, int pageSize = 10)
+        {
+            var query = new GraphQLRequest
+            {
+                Query = @"
+                    query SearchDnaTests($testType: String, $isCompleted: Boolean, $page: Int!, $pageSize: Int!) {
+                        searchDnaTests(testType: $testType, isCompleted: $isCompleted, page: $page, pageSize: $pageSize) {
+                            currentPage
+                            pageSize
+                            totalItems
+                            totalPages
+                            items {
+                                conclusion
+                                createdAt
+                                isCompleted
+                                phienNtid
+                                probabilityOfRelationship
+                                relationshipIndex
+                                testType
+                            }
+                        }
+                    }",
+                Variables = new { testType, isCompleted, page, pageSize }
+            };
+
+            try
+            {
+                var response = await _graphQLClient.SendQueryAsync<SearchDnaTestListData>(query);
+                return response.Data?.SearchDnaTests ?? new PaginationResult<List<DnaTest>>
+                {
+                    Items = new List<DnaTest>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
+            }
+            catch (Exception ex)
+            {
+                return new PaginationResult<List<DnaTest>>
+                {
+                    Items = new List<DnaTest>(),
+                    CurrentPage = page,
+                    PageSize = pageSize,
+                    TotalItems = 0,
+                    TotalPages = 0
+                };
             }
         }
 
@@ -161,76 +228,4 @@ namespace DnaTesting.BlazorWAS.GraphQLClient.PhienNT.GraphQLClient
             }
         }
     }
-}
-
-    // Updated data models to match your LoginResponse
-    public class LoginData
-    {
-        public LoginResponse LoginWithDetails { get; set; }
-    }
-
-    public class LoginResponse
-    {
-        public bool Success { get; set; }
-        public string Message { get; set; }
-        public UserAccount User { get; set; }
-    }
-
-    public class UserAccount
-    {
-        public int UserAccountId { get; set; }
-        public string UserName { get; set; }
-        public string FullName { get; set; }
-        public string Email { get; set; }
-        public int RoleId { get; set; }
-        public bool IsActive { get; set; }
-    }
-public class DnaTestListData
-{
-    public PaginationResult<List<DnaTest>> GetDnaTests { get; set; }
-}
-
-public class CreateDnaTestData
-{
-    public int CreateDnaTestPhienNT { get; set; }
-}
-
-public class UpdateDnaTestData
-{
-    public int UpdateDnaTest { get; set; }
-}
-
-public class DeleteDnaTestData
-{
-    public bool DeleteDnaTest { get; set; }
-}
-
-public class PaginationResult<T>
-{
-    public int TotalItems { get; set; }
-    public int TotalPages { get; set; }
-    public int CurrentPage { get; set; }
-    public int PageSize { get; set; }
-    public T Items { get; set; }
-}
-
-public class DnaTest
-{
-    public int PhienNtid { get; set; }
-    public string TestType { get; set; }
-    public string Conclusion { get; set; }
-    public decimal? ProbabilityOfRelationship { get; set; }
-    public decimal? RelationshipIndex { get; set; }
-    public bool? IsCompleted { get; set; }
-    public DateTime? CreatedAt { get; set; }
-}
-
-public class DnaTestInput
-{
-    public int PhienNtid { get; set; }
-    public string TestType { get; set; }
-    public string Conclusion { get; set; }
-    public decimal? ProbabilityOfRelationship { get; set; }
-    public decimal? RelationshipIndex { get; set; }
-    public bool? IsCompleted { get; set; }
 }

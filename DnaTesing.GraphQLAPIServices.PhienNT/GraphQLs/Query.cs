@@ -1,4 +1,4 @@
-﻿    using DNATesting.Repository.PhienNT;
+﻿using DNATesting.Repository.PhienNT;
 using DNATesting.Repository.PhienNT.ModelExtensions;
 using DNATesting.Repository.PhienNT.Models;
 using DNATesting.Service.PhienNT;
@@ -12,7 +12,7 @@ namespace DnaTesing.GraphQLAPIServices.PhienNT.GraphQLs
 
         public Query(IServiceProvider serviceProvider) => _serviceProvider = serviceProvider;
 
-        public async Task<PaginationResult<List<DnaTestsPhienNt>>> GetDnaTests(int page = 1, int pageSize = 10)
+        public async Task<PaginationResult<List<DnaTestsPhienNt>>> DnaTests(int page = 1, int pageSize = 10)
         {
             try
             {
@@ -67,10 +67,10 @@ namespace DnaTesing.GraphQLAPIServices.PhienNT.GraphQLs
         }
 
         public async Task<PaginationResult<List<DnaTestsPhienNt>>> SearchDnaTests(
-    string? testType = null,
-    bool? isCompleted = null,
-    int page = 1,
-    int pageSize = 10)
+            string? testType = null,
+            bool? isCompleted = null,
+            int page = 1,
+            int pageSize = 10)
         {
             try
             {
@@ -103,10 +103,10 @@ namespace DnaTesing.GraphQLAPIServices.PhienNT.GraphQLs
         }
 
         public async Task<PaginationResult<List<LociPhienNt>>> SearchLoci(
-    string? name = null,
-    bool? isCodis = null,
-    int page = 1,
-    int pageSize = 10)
+            string? name = null,
+            bool? isCodis = null,
+            int page = 1,
+            int pageSize = 10)
         {
             try
             {
@@ -146,7 +146,7 @@ namespace DnaTesing.GraphQLAPIServices.PhienNT.GraphQLs
 
                 if (user != null)
                 {
-                    user.Password = null; 
+                    user.Password = null;
                     return new LoginResponse
                     {
                         Success = true,

@@ -10,6 +10,62 @@
     <a href="/dnatests/create" class="btn btn-primary">Create New Test</a>
 </div>
 
+<!-- Search Form -->
+<div class="card mb-3">
+    <div class="card-header">
+        <h5 class="mb-0">Search & Filter</h5>
+    </div>
+    <div class="card-body">
+        <div class="row g-3">
+            <div class="col-md-4">
+                <label class="form-label">Test Type:</label>
+                <select class="form-select" @bind="searchTestType">
+                    <option value="">All Types</option>
+                    <option value="Paternity">Paternity</option>
+                    <option value="Maternity">Maternity</option>
+                    <option value="Sibling">Sibling</option>
+                    <option value="Grandparent">Grandparent</option>
+                    <option value="Relationship">Relationship</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Status:</label>
+                <select class="form-select" @bind="searchStatus">
+                    <option value="">All Status</option>
+                    <option value="completed">Completed</option>
+                    <option value="in-progress">In Progress</option>
+                </select>
+            </div>
+            <div class="col-md-4 d-flex align-items-end">
+                <div class="d-flex gap-2">
+                    <button class="btn btn-outline-primary" @onclick="SearchTests">
+                        <i class="bi bi-search"></i> Search
+                    </button>
+                    <button class="btn btn-outline-secondary" @onclick="ClearSearch">
+                        <i class="bi bi-x-circle"></i> Clear
+                    </button>
+                </div>
+            </div>
+        </div>
+        @if (isSearching)
+        {
+            <div class="mt-2">
+                <small class="text-muted">
+                    <i class="bi bi-funnel"></i> Searching for:
+                    @if (!string.IsNullOrEmpty(searchTestType))
+                    {
+                        <span class="badge bg-info me-1">Type: @searchTestType</span>
+                    }
+                    @if (!string.IsNullOrEmpty(searchStatus))
+                    {
+                        <span class="badge bg-info me-1">Status: @(searchStatus == "completed" ? "Completed" : "In Progress")</span>
+                    }
+                </small>
+            </div>
+        }
+    </div>
+</div>
+
 @if (loading)
 {
     <div class="text-center">
@@ -18,7 +74,7 @@
         </div>
     </div>
 }
-else if (dnaTests.Any())
+else if (paginationResult.Items?.Any() == true)
 {
     <div class="table-responsive">
         <table class="table table-striped">
@@ -33,7 +89,7 @@ else if (dnaTests.Any())
                 </tr>
             </thead>
             <tbody>
-                @foreach (var test in dnaTests)
+                @foreach (var test in paginationResult.Items)
                 {
                     <tr>
                         <td>@test.PhienNtid</td>
@@ -54,19 +110,92 @@ else if (dnaTests.Any())
             </tbody>
         </table>
     </div>
+
+    <!-- Pagination Controls -->
+    <nav aria-label="DNA Tests pagination">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <span class="text-muted">
+                    Showing @((currentPage - 1) * pageSize + 1) to @Math.Min(currentPage * pageSize, paginationResult.TotalItems)
+                    of @paginationResult.TotalItems entries
+                    @if (isSearching)
+                    {
+                        <span class="text-info">(filtered)</span>
+                    }
+                </span>
+            </div>
+            <div>
+                <ul class="pagination pagination-sm">
+                    <li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+                        <button class="page-link" @onclick="() => GoToPage(1)" disabled="@(currentPage <= 1)">
+                            First
+                        </button>
+                    </li>
+                    <li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+                        <button class="page-link" @onclick="() => GoToPage(currentPage - 1)" disabled="@(currentPage <= 1)">
+                            Previous
+                        </button>
+                    </li>
+
+                    @for (int i = Math.Max(1, currentPage - 2); i <= Math.Min(paginationResult.TotalPages, currentPage + 2); i++)
+                    {
+                        int pageNum = i;
+                        <li class="page-item @(currentPage == pageNum ? "active" : "")">
+                            <button class="page-link" @onclick="() => GoToPage(pageNum)">
+                                @pageNum
+                            </button>
+                        </li>
+                    }
+
+                    <li class="page-item @(currentPage >= paginationResult.TotalPages ? "disabled" : "")">
+                        <button class="page-link" @onclick="() => GoToPage(currentPage + 1)" disabled="@(currentPage >= paginationResult.TotalPages)">
+                            Next
+                        </button>
+                    </li>
+                    <li class="page-item @(currentPage >= paginationResult.TotalPages ? "disabled" : "")">
+                        <button class="page-link" @onclick="() => GoToPage(paginationResult.TotalPages)" disabled="@(currentPage >= paginationResult.TotalPages)">
+                            Last
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Page Size Selector -->
+        <div class="mt-2">
+            <label class="form-label">Items per page:</label>
+            <select class="form-select form-select-sm d-inline-block w-auto ms-2" @onchange="OnPageSizeChanged">
+                <option value="5" selected="@(pageSize == 5)">5</option>
+                <option value="10" selected="@(pageSize == 10)">10</option>
+                <option value="20" selected="@(pageSize == 20)">20</option>
+                <option value="50" selected="@(pageSize == 50)">50</option>
+            </select>
+        </div>
+    </nav>
 }
 else
 {
     <div class="alert alert-info">
-        <h4>No DNA tests found</h4>
-        <p>Create your first DNA test to get started.</p>
+        <h4>@(isSearching ? "No DNA tests found matching your search" : "No DNA tests found")</h4>
+        <p>@(isSearching ? "Try adjusting your search criteria or clear the search to see all tests." : "Create your first DNA test to get started.")</p>
+        @if (isSearching)
+        {
+            <button class="btn btn-outline-primary me-2" @onclick="ClearSearch">Clear Search</button>
+        }
         <a href="/dnatests/create" class="btn btn-primary">Create DNA Test</a>
     </div>
 }
 
 @code {
-    private List<DnaTest> dnaTests = new();
+    private PaginationResult<List<DnaTest>> paginationResult = new() { Items = new List<DnaTest>() };
     private bool loading = true;
+    private int currentPage = 1;
+    private int pageSize = 10;
+
+    // Search parameters
+    private string searchTestType = "";
+    private string searchStatus = "";
+    private bool isSearching = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -78,15 +207,69 @@ else
         loading = true;
         try
         {
-            dnaTests = await DnaTestService.GetAllDnaTestsAsync();
+            if (isSearching)
+            {
+                bool? isCompletedFilter = searchStatus switch
+                {
+                    "completed" => true,
+                    "in-progress" => false,
+                    _ => null
+                };
+
+                paginationResult = await DnaTestService.SearchDnaTestsAsync(
+                    string.IsNullOrEmpty(searchTestType) ? null : searchTestType,
+                    isCompletedFilter,
+                    currentPage,
+                    pageSize);
+            }
+            else
+            {
+                paginationResult = await DnaTestService.GetDnaTestsAsync(currentPage, pageSize);
+            }
         }
         catch (Exception ex)
         {
             // Handle error
+            paginationResult = new PaginationResult<List<DnaTest>> { Items = new List<DnaTest>() };
         }
         finally
         {
             loading = false;
+        }
+    }
+
+    private async Task SearchTests()
+    {
+        isSearching = !string.IsNullOrEmpty(searchTestType) || !string.IsNullOrEmpty(searchStatus);
+        currentPage = 1; // Reset to first page when searching
+        await LoadDnaTests();
+    }
+
+    private async Task ClearSearch()
+    {
+        searchTestType = "";
+        searchStatus = "";
+        isSearching = false;
+        currentPage = 1;
+        await LoadDnaTests();
+    }
+
+    private async Task GoToPage(int page)
+    {
+        if (page >= 1 && page <= paginationResult.TotalPages && page != currentPage)
+        {
+            currentPage = page;
+            await LoadDnaTests();
+        }
+    }
+
+    private async Task OnPageSizeChanged(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value?.ToString(), out int newPageSize))
+        {
+            pageSize = newPageSize;
+            currentPage = 1; // Reset to first page when changing page size
+            await LoadDnaTests();
         }
     }
 
@@ -101,6 +284,11 @@ else
                 var success = await DnaTestService.DeleteDnaTestAsync(id);
                 if (success)
                 {
+                    // If we deleted the last item on the page and it's not page 1, go to previous page
+                    if (paginationResult.Items.Count == 1 && currentPage > 1)
+                    {
+                        currentPage--;
+                    }
                     await LoadDnaTests();
                 }
                 else

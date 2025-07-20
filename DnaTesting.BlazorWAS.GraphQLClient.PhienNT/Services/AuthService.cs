@@ -1,4 +1,5 @@
 ﻿using DnaTesting.BlazorWAS.GraphQLClient.PhienNT.GraphQLClient;
+using DnaTesting.BlazorWAS.GraphQLClient.PhienNT.Models;
 
 namespace DnaTesting.BlazorWAS.GraphQLClient.PhienNT.Services
 {
