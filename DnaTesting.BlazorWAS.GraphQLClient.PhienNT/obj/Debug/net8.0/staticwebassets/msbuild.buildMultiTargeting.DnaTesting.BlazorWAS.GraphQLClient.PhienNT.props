@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.props" />
+</Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DnaTesing.GraphQLAPIServices.PhienNT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf7c4509a8c0b9e60aaa3982d511a59f2dc9133f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DnaTesing.GraphQLAPIServices.PhienNT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DnaTesing.GraphQLAPIServices.PhienNT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

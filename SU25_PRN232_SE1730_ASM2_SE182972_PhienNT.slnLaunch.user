@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "DnaTesing.GraphQLAPIServices.PhienNT\\DnaTesing.GraphQLAPIServices.PhienNT.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

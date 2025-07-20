@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.styles.css",
+      "PackagePath": "staticwebassets\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.styles.css"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "E:\\Work\\PRN232_ASM2\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DnaTesting.BlazorWAS.GraphQLClient.PhienNT.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DnaTesting.BlazorWAS.GraphQLClient.PhienNT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DnaTesting.BlazorWAS.GraphQLClient.PhienNT.props",
+      "PackagePath": "build\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DnaTesting.BlazorWAS.GraphQLClient.PhienNT.props",
+      "PackagePath": "buildMultiTargeting\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DnaTesting.BlazorWAS.GraphQLClient.PhienNT.props",
+      "PackagePath": "buildTransitive\\DnaTesting.BlazorWAS.GraphQLClient.PhienNT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

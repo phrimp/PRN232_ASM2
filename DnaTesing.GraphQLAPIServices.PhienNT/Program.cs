@@ -13,7 +13,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddGraphQLServer().AddQueryType<Query>().BindRuntimeType<DateTime, DateTimeType>();
+builder.Services.AddGraphQLServer().AddQueryType<Query>().AddMutationType<Mutation>().BindRuntimeType<DateTime, DateTimeType>();
 builder.Services.AddScoped<IServiceProvider, ServiceProvider>();
 builder.Services.AddScoped<IDnaTestsPhienNtService, DnaTestsPhienNtService>();
 builder.Services.AddControllers().AddJsonOptions(options =>
